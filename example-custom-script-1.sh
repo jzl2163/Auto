@@ -16,6 +16,7 @@
 # This is followed by some editing examples.
 # # Clear the feeds.conf.default and append the feed sources you need one by one:
 #cat /dev/null > a.txt
+echo 'src-git istore https://github.com/linkease/istore' >> feeds.conf.default
 #echo 'src-git-full packages https://git.openwrt.org/feed/packages.git;openwrt-22.03' >> feeds.conf.default
 #echo 'src-git-full luci https://git.openwrt.org/project/luci.git;openwrt-22.03' >> feeds.conf.default
 #echo 'src-git-full routing https://git.openwrt.org/feed/routing.git;openwrt-22.03' >> feeds.conf.default
